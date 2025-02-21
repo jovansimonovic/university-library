@@ -58,28 +58,28 @@
     @apply gradient-vertical p-5 rounded-2xl xs:w-min w-full relative;
   }
 
-  .borrowed-book_cover {
+  .borrowed-book-cover {
     @apply py-4 lg:px-16 px-10 flex justify-center items-center w-full rounded-lg;
   }
 
   /* Book Cover */
-  .book-cover_extra_small {
+  .book-cover-extra-small {
     @apply w-[28.95px] h-10;
   }
 
-  .book-cover_small {
+  .book-cover-small {
     @apply w-[55px] h-[76px];
   }
 
-  .book-cover_medium {
+  .book-cover-medium {
     @apply w-[144px] h-[199px];
   }
 
-  .book-cover_regular {
+  .book-cover-regular {
     @apply xs:w-[174px] w-[114px] xs:h-[239px] h-[169px];
   }
 
-  .book-cover_wide {
+  .book-cover-wide {
     @apply xs:w-[296px] w-[256px] xs:h-[404px] h-[354px];
   }
 
@@ -117,7 +117,7 @@
     @apply mt-2 text-justify text-xl text-light-100;
   }
 
-  .book-overview_btn {
+  .book-overview-btn {
     @apply mt-4 min-h-14 w-fit bg-primary text-dark-100 hover:bg-primary/90 max-md:w-full !important;
   }
 
@@ -144,7 +144,7 @@
   }
 
   /* Book Receipt */
-  .book-receipt_admin-btn {
+  .book-receipt-admin-btn {
     @apply bg-light-300 rounded-md text-primary-admin font-semibold hover:bg-light-300/80 !important;
   }
 
@@ -199,11 +199,11 @@
     @apply flex flex-row justify-end gap-3;
   }
 
-  .pagination-btn_light {
+  .pagination-btn-light {
     @apply bg-light-300 text-dark-300 hover:bg-light-300/70 !important;
   }
 
-  .pagination-btn_dark {
+  .pagination-btn-dark {
     @apply bg-dark-300 hover:bg-dark-100 !important;
   }
 
